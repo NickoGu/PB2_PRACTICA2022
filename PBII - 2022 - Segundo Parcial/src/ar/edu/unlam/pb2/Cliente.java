@@ -1,6 +1,6 @@
 package ar.edu.unlam.pb2;
 
-public class Cliente {
+public class Cliente implements Denunciable{
 
 	Integer CUIT;
 	Dispositivo dispositivo;

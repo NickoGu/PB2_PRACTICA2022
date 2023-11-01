@@ -31,4 +31,11 @@ public class testParcial {
 		
 	}
 	
+	@Test
+	public void queSePuedaMonitorearUnaExtraccion() {
+		Dispositivo dispositivo = new Dispositivo_PC("Windows", 12345678, "Localidad");
+		Cliente cliente = new Cliente(12345678, dispositivo, "Nico");
+		cliente.
+	}
+	
 }

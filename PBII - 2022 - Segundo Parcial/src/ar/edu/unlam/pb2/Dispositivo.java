@@ -1,6 +1,6 @@
 package ar.edu.unlam.pb2;
 
-public abstract class Dispositivo {
+public abstract class Dispositivo implements Denunciable {
 	String SO;
 	Integer IP;
 	String localidad;

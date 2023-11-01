@@ -1,10 +1,6 @@
 package ar.edu.unlam.pb2;
 
-public class T_Monetaria implements Rechazable, Alertable, Monitoreable {
-
-	public T_Monetaria() {
-		// TODO Auto-generated constructor stub
-	}
+public class Extraccion implements Rechazable, Alertable{
 
 	@Override
 	public void monitorear() {
