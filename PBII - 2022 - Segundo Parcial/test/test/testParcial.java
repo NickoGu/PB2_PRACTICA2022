@@ -21,4 +21,14 @@ public class testParcial {
 		
 	}
 
+	@Test
+	public void queSePuedaCrearUnDispositivo() {
+		Dispositivo dispositivo = new Dispositivo_PC("Windows", 12345678, "Localidad");
+		
+		
+		assertNotNull(dispositivo);
+		
+		
+	}
+	
 }
